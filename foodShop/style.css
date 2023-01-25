@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.logo > img{
+    width: 150px;
+    height: 60px;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+
+.search > input{
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    outline-width: none;
+    border-radius: 10px;
+}
+
+.search > i{
+    /* color: red; */
+    position: relative;
+    right: 2rem;
+}
+.contacts{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contacts > span{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right > i{
+    color: red;
+    font-size: 1.5rem;
+    background-color: #E0C3FC;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.right > button{
+    /* background-color: rgb(192, 162, 241); */
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    outline-width: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+   font-weight: bold;
+    /* background-image: linear-gradient(red , orange , green); */
+    /* background-color: #8EC5FC; */
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+
+
+.right > button:hover
+{
+    background-image: linear-gradient(62deg, #aa2b04 0%, #d8005a 100%);
+    color: white;
+}
+
+
+
+
+/* hero sections css  */
+
+.parent{
+    display: flex;
+    height: 500px;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+.heroimgleft{
+    /* background-color: red; */
+    height: 500px;
+    flex: 30;
+   
+}
+
+.heroimgleft > img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 500px;
+    border-radius: 2rem;
+    width: fit-content;
+    width:100%;
+
+    
+}
+
+
+
+
+.heroimgright{
+    /* background-color: blue; */
+    height: 500px;
+    flex: 18;
+
+}
+
+
+.heroimgright > img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 500px;
+    border-radius: 2rem;
+   width:100%;
+    
+}
+
+
