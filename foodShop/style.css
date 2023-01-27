@@ -106,6 +106,42 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 
+/* main Images css  */
+
+.mainImage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+
+.mainImage > .main_contain{
+   /* border: 1px solid red; */
+   padding-top: 12rem;
+   padding-left: 5rem;
+}
+
+.main_contain > p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+.main_contain > button{
+    padding: 1rem 2rem;
+    border: 2px solid rgb(255, 115, 60);
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+
+
 
 
 /* hero sections css  */
@@ -159,3 +195,130 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 
+
+/* setion heading 2 css  */
+
+.setion2{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.setion2 > h1{
+    font-weight: bold;
+}
+
+
+.cate_btns{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.cate_btn{
+    /* border: 2px solid rgb(49, 49, 49); */
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+cursor: pointer;
+}
+
+
+.cate_first{
+    background-color: rgb(57, 224, 141);
+    color: white;
+}
+.cate_second{
+    background-color: rgb(252, 96, 218);
+    color: white;
+}
+
+
+.cate_third{
+    background-color: rgb(56, 133, 235);
+    color: white;
+    
+}
+
+
+/* all foods css here  */
+
+.All_foods{
+    /* border:1px solid red ; */
+    display: flex;
+    gap: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.foods{
+    /* border: 1px solid red; */
+    flex: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ 
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+
+.foods > img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 1rem;
+
+
+
+}
+
+
+.foods > h3{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.foods > p{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.foods > span{
+display: grid;
+place-items: center;
+
+/* border: 1px solid red; */
+padding: 2rem;
+font-size: 1.5rem;
+font-weight: bold;
+border-radius: 1rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+background-image: linear-gradient(rgb(243, 21, 21),rgb(180, 4, 78));
+color: white;
+cursor: pointer;
+
+
+}
+
+
+.foods > span:hover{
+    background-image: linear-gradient(rgb(160, 2, 55),rgb(238, 44, 125));
+
+
+}
+
+
+#price_off{
+    text-decoration: line-through;
+}
